@@ -9,7 +9,7 @@ html, body{
     height: 100vh;
 }
 div#calculadora{
-    max-width: 457px;
+    width: 457px;
     height: 490px;
     margin: auto;
     position: absolute;
