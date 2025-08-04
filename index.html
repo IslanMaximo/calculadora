@@ -9,27 +9,26 @@
 <body>
     <section>
         <div id="calculadora">
-            <div id="res">
-                <input type="text" name="teste" id="teste">
-                <div id="dn2">
+            <input type="text" disabled id="res">
 
-                </div>
-            </div>
-            <input type="button" value="7" onclick="n7()">
-            <input type="button" value="8" onclick="n8()">
-            <input type="button" value="9" onclick="n9()">
-            <input type="button" value="-" onclick="subtracao()">
-            <input type="button" value="4" onclick="n4()">
-            <input type="button" value="5" onclick="n5()">
-            <input type="button" value="6" onclick="n6()">
-            <input type="button" value="+" onclick="adicao()">
-            <input type="button" value="1" onclick="nn1()">
-            <input type="button" value="2" onclick="nn2()">
-            <input type="button" value="3" onclick="n3()">
-            <input type="button" value="*" onclick="multiplicacao()">
-            <input type="button" value="0" class="maior" onclick="n0()">
+            <input type="button" value="C" class="maior" onclick="limpar()">
+            <input type="button"  value="&#x232B;" class="maior" onclick="back()">
+            <input type="button" value="." onclick="dado('.')">
+            <input type="button" value="7" onclick="dado('7')">
+            <input type="button" value="8" onclick="dado('8')">
+            <input type="button" value="9" onclick="dado('9')">
+            <input type="button" value="-" onclick="dado('-')">
+            <input type="button" value="4" onclick="dado('4')">
+            <input type="button" value="5" onclick="dado('5')">
+            <input type="button" value="6" onclick="dado('6')">
+            <input type="button" value="+" onclick="dado('+')">
+            <input type="button" value="1" onclick="dado('1')">
+            <input type="button" value="2" onclick="dado('2')">
+            <input type="button" value="3" onclick="dado('3')">
+            <input type="button" value="*" onclick="dado('*')">
+            <input type="button" value="0" class="maior" onclick="dado('0')">
             <input type="button"  value="=" class="maior" onclick="resultado()">
-            <input type="button" value="/" onclick="divisao()">
+            <input type="button" value="/" onclick="dado('/')">
             
 
             
